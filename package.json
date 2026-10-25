@@ -1,0 +1,14 @@
+
+{
+  "name": "cicd-kind-project",
+  "version": "1.0.0",
+  "description": "CI/CD pipeline using GitHub Actions, Docker, and KIND",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

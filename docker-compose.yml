@@ -1,0 +1,9 @@
+
+services:
+  app:
+    build: .
+    image: cicd-kind-app:1.0
+    container_name: cicd-kind-compose
+    ports:
+      - "3002:3000"
+    restart: unless-stopped
