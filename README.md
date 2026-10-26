@@ -203,3 +203,25 @@ GitHub: https://github.com/Aditya-Cyb
 ## 📄 License
 
 This project was created for educational and internship learning purposes.
+
+
+## 📸 Screenshots and Project Evidence
+
+### 1. GitHub Actions CI/CD Workflow
+![GitHub Actions Success](screenshots/github-actions-success.png)
+
+### 2. Docker Hub Image
+![Docker Hub Image](screenshots/dockerhub-image.png)
+
+### 3. Kubernetes Pod Status
+![Kubernetes Pods](screenshots/kubernetes-pods.png)
+
+### 4. Kubernetes Deployment and Service
+![Kubernetes Resources](screenshots/kubernetes-resources.png)
+
+### 5. Application Health Check
+![Application Health](screenshots/application-health.png)
+
+### 6. Application Response
+![Application Home](screenshots/application-home.png)
+
