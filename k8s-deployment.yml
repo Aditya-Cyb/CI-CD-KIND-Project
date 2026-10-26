@@ -1,0 +1,27 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cicd-kind-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cicd-kind-app
+  template:
+    metadata:
+      labels:
+        app: cicd-kind-app
+    spec:
+      containers:
+        - name: cicd-kind-app
+          image: adityadev02/cicd-kind-app:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 3000
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 3000
+            initialDelaySeconds: 5
+            periodSeconds: 5
