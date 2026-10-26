@@ -6,3 +6,4 @@ node_modules/
 coverage/
 npm-debug.log*
 .DS_Store
+cicd-kind-app.tar
