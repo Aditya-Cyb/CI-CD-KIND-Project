@@ -172,7 +172,7 @@ The tests verify the health endpoint and the application's root endpoint.
 
 ## 📸 Project Evidence
 
-The following evidence can be added to the repository:
+The following evidence is included in this repository:
 
 - Successful GitHub Actions workflow run.
 - Docker Hub repository showing the published image and tags.
